@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html> 
+ <head> 
+<title>Test</title> 
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<style type="text/css">
+body
+{
+	font-family: calibri,tahoma,arial,sans-serif;
+	background: #FFFFFF;
+	width: 550px;
+}
+</style> 
+
+<script type="text/javascript" src="trsemu-1.4.js"></script> 
+
+ </head> 
+ <body onload="trsEmu.screen('canvasparent').button('startstop').focus().run();"> 
+
+<h2>Test</h2>
+
+<h3>DRAFT please do not link or share</h3>
+
+<input type="button" value='Executer «Cadavres Exquis»' onClick="trsEmu.run('test.bas')">
+<input type="button" id="startstop" value="Run" onClick="trsEmu.run('toggle');">
+
+	<div id="canvasparent"><canvas width="512" height="384" style="border:solid 1px black; background:black"></canvas></div>
+
+<h3>TRS-80 Model III émulateur / emulator: Peter Phillips, 2010-2012</h3>
+
+ </body> 
+</html> 
+
